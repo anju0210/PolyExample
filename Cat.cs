@@ -8,6 +8,8 @@ namespace PolyExample
 {
     class Cat : Animal
     {
+        public new void Eat() { Console.WriteLine("냐미냐미 먹습니다."); }
+        public new void Sleep() { Console.WriteLine("드르렁 잠을 잡니다."); }
         public void Meow() { Console.WriteLine("냥냥 웁니다."); }
     }
 }
